@@ -76,7 +76,7 @@ function renderList(links) {
 
 chrome.runtime.onConnect.addListener(function (port) {
     port.onDisconnect.addListener(function () {
-        // When the popup is closed, remove all event listeners
+        // When popup is closed, remove all button event listeners
         inputButton.removeEventListener("click", inputFunction)
         tabButton.removeEventListener("click", tabFunction)
         deleteButton.removeEventListener("dblclick", deleteFunction)
