@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 550px;
+    max-width: 1100px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    margin-bottom: 4x;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.button-container button {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid green;
+    font-weight: bold;
+    margin-bottom: 5px;
+    flex-grow: 1;
+    padding: 10px, 20px;
+    margin: 0 5px
+}
+
+.button-container button:hover {
+    color: blue
+}
+
+#delete-button {
+    background: white;
+    color: green;
+}
+
+#delete-button:hover {
+    color: red
+}
